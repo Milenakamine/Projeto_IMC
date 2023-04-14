@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+}
+
+#component{
+    background-color: #ece4dc;
+}
+
+#menu{
+    width: 100%;
+    height: 5rem;
+    margin: 0;
+}
+
+#information{
+    width: 100%;
+    height: 35rem;
+    /* background-color: black; */
+}
+#img_information{
+    margin-left: 7%;
+}
+#text_information{
+    align-self: center;
+    width: 35rem;
+    text-align: -webkit-center;
+    margin-left: 12%;
+}
+#text_information h1{
+    font-family: ui-monospace;
+    font-style: oblique;
+    font-size: 4rem;
+    margin-bottom: 4rem;
+}
+#text_information h3{
+    font-weight: 300;
+    font-family: revert;
+}
+
+
+#formulario{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+#formulario_component h4{
+    font-size: 3rem;
+    text-align: -webkit-center;
+    font-family: sans-serif;
+}
+#botaocalcular{
+    height: 3.5rem;
+    align-self: center;
+}
+
+
+#tabela_container{
+    border: double;
+    width: 60rem;
+    margin: 0 auto;
+    margin-top: 4rem;
+
+    overflow: hidden;
+    border-collapse: separate;
+    border: solid #aaa 1px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 8px;
+}
+#tabela_container tbody{
+    background-color: #ece4dc;
+}
+#tabela_container thead{
+    background-color: #ece4dc;
+}
+
+
+#footer{
+    margin-top: 10%;
+}
+
+#container img {
+    max-width:200px;
+    max-height:150px;
+    margin-bottom: 1rem;
+    width: auto;
+    height: auto;
+}
